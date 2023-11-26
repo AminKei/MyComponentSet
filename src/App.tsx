@@ -7,7 +7,6 @@ import { Typography } from "./Component-Set/Typography/Typography";
 import { Card } from "./Component-Set/Card/Card";
 
 
-let fackteo = "https://lh3.googleusercontent.com/_adtsWu_CkNd98LR3_ezJ8hbc0650hnJdy5VBRZKlnah8_wjwwavctPW22CYIVRSQptJyyVIwKLyaAx-0SGa-psz2QtZHPOIXu19n5dtEQuxGg=w960-rj-nu-e365"
 
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
     <div className="App">
       <Button width={330} > HELLO </Button>
       <Input placholder="Email... "  />
-      <Typography fontSize={30}>Mohamad Amin keimasi</Typography>
+      <Typography fontSize={30  }>Mohamad Amin keimasi</Typography>
       <Card >
       </Card>
     </div>
