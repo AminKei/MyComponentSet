@@ -5,6 +5,7 @@ import { Button } from "./Component-Set/Button/Button";
 import { Input } from "./Component-Set/Input/Input";
 import { Typography } from "./Component-Set/Typography/Typography";
 import { Card } from "./Component-Set/Card/Card";
+import { Loading } from "./Component-Set/Loading/Loading";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Typography fontSize={30  }>Mohamad Amin keimasi</Typography>
       <Card >
       </Card>
+      <Loading/>
     </div>
   );
 }
